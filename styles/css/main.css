@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-attachment: scroll;
   padding-inline: 1rem;
+  padding-top: 1rem;
 }
 
 #toDoApp > * {
@@ -29,7 +30,6 @@ body {
 #toDoApp {
   max-width: 1000px;
   margin: 0 auto;
-  height: calc(100vh - 100px);
 }
 
 .controlPanel,
@@ -51,6 +51,8 @@ body {
   background-color: rgba(0, 0, 0, 0.5529411765);
   overflow-y: scroll;
   padding-bottom: 5px;
+  height: 100%;
+  min-height: 60vh;
 }
 
 .aside {
